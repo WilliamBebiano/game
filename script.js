@@ -58,10 +58,13 @@ function game() {
     }
 
     if (playerScore > computerScore) {
+        console.log("You win the game!😁 \nPEW PEW Madafakas")
         alert("You win the game!😁 \nPEW PEW Madafakas");
     } else if (playerScore < computerScore) {
+        console.log("You lose the game😭! \nNOT TODAY!")
         alert("You lose the game😭! \nNOT TODAY!");
     } else {
+        console.log("The game is tied!")
         alert("The game is tied!");
     }
 }
